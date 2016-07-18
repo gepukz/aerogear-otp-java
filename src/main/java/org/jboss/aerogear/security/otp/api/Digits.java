@@ -18,7 +18,7 @@
 package org.jboss.aerogear.security.otp.api;
 
 public enum Digits {
-    SIX(1000000), SEVEN(10000000), EIGHT(100000000);
+    FOUR(1000000), SIX(1000000), SEVEN(10000000), EIGHT(100000000);
 
     private int digits;
 

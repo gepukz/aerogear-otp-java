@@ -138,7 +138,7 @@ public class Totp {
                 ((hash[offset + 2] & 0xff) << 8) |
                 (hash[offset + 3] & 0xff);
 
-        return binary % Digits.SIX.getValue();
+        return binary % Digits.FOUR.getValue();
     }
 
     private String leftPadding(int otp) {
